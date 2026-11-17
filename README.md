@@ -51,7 +51,7 @@ Website Crawler API fetches raw HTML from any webpage in request mode (no render
 | Parameter | In | Type | Required | Description |
 |---|---|---|---|---|
 | `query` | query | string | ✅ | A website URL with either the http or https protocol. |
-| ` allow_redirects` | query | boolean | — | If set to `false`, do not follow redirects. |
+| `allow_redirects` | query | boolean | — | If set to `false`, do not follow redirects. |
 | `return_page_source` | query | boolean | — | If set to `true`, the response will be the HTML source of the page. |
 
 ### Python example
